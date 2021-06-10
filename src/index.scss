@@ -1,0 +1,29 @@
+.clear {
+    clear: both;
+}
+
+#main {
+    width : 1180px;
+    margin : 0 auto;
+
+    header {
+        display: flex;
+    }
+
+    li {
+        border: 1px solid black;
+
+        article.book {
+            margin-bottom : 10px;
+            min-height: 170px;
+            
+    
+            img {
+                float: left;
+            }
+        }
+    }
+
+   
+}
+
